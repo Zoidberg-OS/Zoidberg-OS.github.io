@@ -1,0 +1,5 @@
+# Local Claude Code settings (personal, not shared)
+.claude/settings.local.json
+
+# Pre-edit backup of the bundled page (kept locally; git history supersedes it)
+index.html.orig
