@@ -1137,7 +1137,10 @@ code, kbd, samp { font-family: var(--font-mono); font-size: 0.9em; }
   #top { min-height: 78vh !important; }
   .os-hero-body { padding: 40px 22px 80px !important; gap: 26px !important; }
   .os-hero-body img { width: 150px !important; height: auto !important; }
-  .os-scroll-cue { display: none !important; }   /* redundant on mobile; overlapped the tall headline */
+  /* smaller + lower on mobile so it sits below the headline, not over it */
+  .os-scroll-cue { bottom: 16px !important; }
+  .os-scroll-cue > div { height: 34px !important; }
+  .os-scroll-cue > div > span { height: 24px !important; }
   #top h1 {
     white-space: normal !important;
     transform: none !important;
