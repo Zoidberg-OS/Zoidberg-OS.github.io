@@ -1098,8 +1098,8 @@ code, kbd, samp { font-family: var(--font-mono); font-size: 0.9em; }
    only kicks in on wide screens where it was designed to work. */
 @media (min-width: 821px) {
   #os-nav-burger { display: none !important; }
-  .os-hero-h1 { font-size: clamp(26px, 3.55vw, 44px); max-width: 1180px; width: fit-content;
-                white-space: nowrap; transform: scaleX(0.9); transform-origin: left; }
+  .os-hero-h1 { font-size: clamp(26px, 3.55vw, 44px); max-width: 100%; width: max-content;
+                transform: scaleX(0.9); transform-origin: left; }
   .os-plus { width: 600px; }
 }
 
