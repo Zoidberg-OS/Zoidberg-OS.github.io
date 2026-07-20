@@ -3,3 +3,6 @@
 
 # Pre-edit backup of the bundled page (kept locally; git history supersedes it)
 index.html.orig
+
+# Source asset archives dropped into the folder (only the extracted web assets ship)
+*.zip
